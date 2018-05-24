@@ -1,0 +1,16 @@
+Anago has been ported to the Linux platform and is known to compile under GCC
+version 4.7.2 on the x86_64 platform.
+
+--Dependancies--
+libusb-0.1-4 (POSIX Systems)
+libusb-win32 (Windows)
+SQUIRREL3
+kazzo
+
+--Compilation--
+ 1. Copy the libusb, LibUSB-Win32, SQUIRREL3 and kazzo directories into the
+    distribution directory as appropriote for your platform.
+ 2. cd into "src" directory
+ 3. Execute "make"
+
+
